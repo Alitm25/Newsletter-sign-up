@@ -1,0 +1,219 @@
+body {
+    font-family: 'Roboto';
+    background-color: #36384d;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/assets/fonts/Roboto-Bold.ttf"),
+        url("/assets/fonts/Roboto-Regular.ttf");
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container {
+    background-color: #fff;
+    width: 890px;
+    height: 593px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+.container-done  {
+    display: none;
+}
+.infromation-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 593px;
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+
+.desktop-img {
+    display: initial;
+}
+.mobile-img {
+    display: none;
+}
+
+.stay-updated-txt {
+    font-weight: 700;
+    font-size: 60px;
+    color: #0d0e17;
+    margin-bottom: 10px;
+}
+
+.inform-text {
+    color: #575664;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.options-box {
+    display: flex;    
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.option p {
+    margin-left: 8px;
+    color: #575664;
+}
+
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.texts-above-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.txt-above-input {
+    font-size: 12px;
+}
+
+.eror-text-above {
+    font-size: 12px;
+    color: #f95e58;
+}
+
+input[type=text] {
+    width: 375px;
+    height: 50px;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    border-color: #cecece;
+    padding-left: 15px;
+    font-size:18px;
+    color: black;
+    margin-bottom: 15px;
+}
+input[type=text]::placeholder {
+    color: #cecece;
+    font-size: 18px;
+}
+.eror-input {
+    color: #f95e58 !important;
+    border: 2px solid #f95e58 !important;
+    background-color: #ffe8e6;
+}
+
+.main-button {
+    border: none;
+    cursor: pointer;
+    width: 395px;
+    height: 58px;
+    background-color: #232742;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: background 0.5s, box-shadow 0.25s;
+
+}
+.main-button:hover {
+    background: linear-gradient(to right, #fd447a, #ff5b25);
+    box-shadow: 0 4px 15px rgba(255, 62, 121, 1);
+
+}
+
+/* confirmation box style */ 
+
+.confrim-container {
+    width: 430px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.confrim-container-shown {
+    display: flex;
+}
+.info-box {
+    width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.thanks-massage {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #0d0e17;
+    margin-top: 15px;
+}
+
+.info-massage {
+    font-size: 14px;
+    font-weight: normal;
+    color: #575664;
+    line-height: 22px;
+}
+
+.dismiss-button {
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    height: 52px;
+    background: linear-gradient(to right, #fd447a, #ff5b25);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: box-shadow 0.25s;
+    margin-top: -25px;
+    margin-bottom: 26px;
+}
+.dismiss-button:hover {
+    box-shadow: 0 4px 15px rgba(255, 62, 121, 1);
+}
+
+.email {
+    font-weight: bolder;
+    color: #0d0e17;
+}

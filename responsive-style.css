@@ -1,0 +1,94 @@
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .image {
+        order: -1;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 110%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0;
+        padding-left: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infromation-box {
+        height: 80%;
+        width: 88%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .stay-updated-txt {
+        font-size: 32px;
+    }
+
+    .inform-text {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .option p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+    input[type=text] {
+        width: 310px;
+        height: 45px;
+    }
+
+    input[type=text]::placeholder {
+        font-size: 14px;
+    }
+
+
+    .main-button {
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .attribution {
+        color: black;
+        position: absolute;
+        bottom: -30px;
+    }
+
+    /* confirmation responsive style */
+
+    .confrim-container {
+        width: 100%;
+        height: 110%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .info-box {
+        width: 80%;
+        align-items: flex-start;
+    }
+
+    .dismiss-button {
+        width: 85%;
+    }
+}
